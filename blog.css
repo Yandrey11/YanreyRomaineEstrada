@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  
+  background-position: center;
+ height: 1200px;
+  background-image: linear-gradient(to right top, #145858, #3a706b, #5a897e, #7aa394, #9bbdaa, #9bbdaa, #9bbdaa, #9bbdaa, #7aa394, #5a897e, #3a706b, #145858);
+  background-repeat: no-repeat;
+} 
+
+
+.header{
+    font-family: Arial;
+    width: max-content;
+
+
+}
+.logo {
+position: absolute;
+padding-left: 20px;
+  font-size: 30px;
+ 
+  
+}
+span{
+  color: #f7b318;
+}
+nav{
+  padding-top: 20px;
+}
+.nav li {
+  display: inline-block;
+ 
+}
+
+
+
+.list-items a{
+  text-decoration: none;
+  cursor: pointer;
+ position:relative;
+ left: 140px;
+ font-size: 15px;
+  margin-right: 20px;
+  top: 10px;
+  font-size: 15px;
+  color:#f7b318 ;
+  
+}
+.les-1 img{
+  width: 40%;
+position: absolute;
+left:  10px;
+top: 70px;
+
+}
+.les-1 p{
+  text-align: justify;
+  width: 47%;
+  height: 375px;
+  font-family: arial;
+  font-size: 15px;
+  position: relative;
+  left: 180px;
+  bottom: -30px;
+}
+
+.les-2 img{
+  width: 48%;
+  position: absolute;
+  right: 10px;
+  bottom: 110px;
+}
+.les-2 p{
+ 
+  width: 45%;
+  position: relative;
+  bottom: -50px;
+  left: 10px;
+  height: 300px;
+  text-align: justify;
+  font-family: arial;
+  font-size: 15px;
+}
+.learn p{
+  display: none;
+  position: absolute;
+}
+.crid p{
+  position: relative;
+  top: 470px;
+  font-size: 10px;
+  text-align: center;
+}
+.lisud p{
+  position: absolute;
+  font-size: 15px;
+  font-family: arial;
+  margin: 0 15px 0 15px;
+  text-align: justify;
+  top: 800px;
+}
+@media only screen and (min-width:767px) { 
+ 
+  
+ 
+  .logo{
+    font-size: 4em;
+    
+    padding-left: 50px;
+  }
+  .list-items a{
+    left: 400px;
+    font-size: 23px;
+    margin-right: 50px;
+
+    
+  }
+  .les-1 p{
+    
+    font-size: 20px;
+    height: fit-content;
+    left:390px;
+    top: 150px;
+  }
+
+  .les-1 img{
+    width: 35%;
+    left: 50px;
+   top: 100px;
+   height: 450px;
+  }
+  
+.les-2 p{
+  height:fit-content;
+  left: 50px;
+  top: 448px;
+  font-size: 18px;
+  width: 40%;
+  font-size: 20px;
+  
+}
+
+
+
+  .les-2 img{
+    width: 40%;
+    bottom: 20%;
+    right: 5%;
+  }
+  .learn p{
+    display: flex;
+    top: 1020px;
+    font-size: 18px;
+    margin: 0  40px 0 40px;
+    font-family: Arial;
+    text-align: justify;
+  }
+  .lisud p{
+    font-size: 18px;
+  top:  900px;
+  margin: 0 40px 0 40px;
+  }
+  .crid p{
+    
+    top: 770px;
+    
+}
+}
+@media only screen and (min-width: 1366px) {
+ 
+  .logo {
+    font-size: 5em;
+    top: -7px;
+  }
+
+  .list-items a {
+    font-size: 27px;
+    padding-top: 100px;
+    left: 800px;
+  }
+
+  .les-1 img{
+    width: 25%;
+    left: 250px;
+  }
+  .les-1 p{
+    width: 25%;
+   top: 510px;
+   left:250px;
+   font-size: 23px;
+  }
+
+
+
+
+
+  .les-2 img{
+    width: 25%;
+    top: 100px;
+    left: 740px;
+
+  }
+  .les-2 p{
+    width: 25%;
+   top:   260px;
+   left: 740px;
+   font-size: 23px;
+  }
+  .learn p{
+    display: flex;
+    position: absolute;
+    top: 1080px;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    margin: 0 100px 0 140px;
+  }
+  .lisud p{
+    font-size: 23px;
+  }
+  .crid p{
+    top: 620px;
+  }
+}

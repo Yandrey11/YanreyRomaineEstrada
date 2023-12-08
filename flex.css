@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+
+background-position: center;
+height: 1200px;
+background-image: linear-gradient(to right top, #145858, #3a706b, #5a897e, #7aa394, #9bbdaa, #9bbdaa, #9bbdaa, #9bbdaa, #7aa394, #5a897e, #3a706b, #145858);
+background-repeat: no-repeat;
+} 
+
+
+.header{
+  font-family: Arial;
+  width: max-content;
+
+
+}
+.logo {
+position: absolute;
+padding-left: 20px;
+font-size: 30px;
+
+
+}
+span{
+color: #f7b318;
+}
+nav{
+  padding-top: 20px;
+}
+.nav li {
+display: inline-block;
+
+}
+
+
+
+.list-items a{
+text-decoration: none;
+cursor: pointer;
+position:relative;
+left: 140px;
+font-size: 15px;
+margin-right: 20px;
+top: 10px;
+font-size: 15px;
+color:#f7b318 ;
+
+}
+
+.part-1 p{
+  position: relative;
+  top: 300px;
+  text-align: justify;
+  margin: 0 20px 0 20px;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.part-1 img {
+  width:90%;
+  position: absolute;
+  top: 70px;
+  margin: 0 20px 0 20px;
+}
+.part-2 p{
+ margin: 0 20px 0 20px;
+ position: absolute;
+ 
+ bottom: -15px;
+ font-family: Arial;
+ font-size: 15px;
+ text-align: justify ;
+}
+.part-2 img{
+  width: 60%;
+  position: relative;
+  top:  305px;
+ left: 73px;
+  
+}
+
+.part-3 img {
+width: 50%;
+position: absolute;
+top:  102%;
+left: 90px;
+}
+.part-3 p{
+  margin: 0 20px 0 20px;
+  position: relative;
+top:  670px;
+text-align: justify;
+font-family: arial;
+font-size: 15px;
+}
+
+.crid p{
+  position: relative;
+  top: 680px;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:767px) { 
+ 
+  
+ 
+  .logo{
+    font-size: 4em;
+    
+    padding-left: 50px;
+  }
+  .list-items a{
+    left: 400px;
+    font-size: 23px;
+    margin-right: 50px;
+
+    
+  }
+.part-1 p{
+  
+  margin: 0 10px 0 450px;
+font-size: 23px;
+left: -10px;
+top: 100px;
+}
+  .part-1 img{
+    width: 50%;
+    top: 150px;
+  }
+
+
+.part-2 p{
+  font-size: 23px;
+  top: 480px;
+margin: 0 380px 0 20px;
+}
+
+.part-2 img{
+width: 40%;
+left: 450px;
+top: 210px;
+
+
+}
+.part-3 img{
+  width: 45%;
+  top: 635px;
+  left: 20px;
+}
+.part-3 p{
+  font-size: 23px;
+  width: 40%;
+ top: 270px;
+ left: 430px;
+}
+.crid p{
+    
+  top: 355px;
+  
+}
+}
+
+@media only screen and (min-width: 1366px) {
+ 
+  .logo {
+    font-size: 5em;
+    top: -7px;
+  }
+
+  .list-items a {
+    font-size: 27px;
+    padding-top: 100px;
+    left: 800px;
+  }
+  
+  
+  .part-1 p{
+   
+    width: 40%;
+    top:  830px;
+    font-size: 28px;
+    left:  230px;
+    
+  }
+
+  .part-1 img{
+    width: 38%;
+    top: 800px;
+    left: 100px;
+  }
+  
+  .part-2 p{
+left: 54%;
+width: 30%;
+font-size: 28px;
+top:  620px;
+  }
+  .part-2 img{
+    width: 29%;
+    top:  -180px;
+    left:   750px;
+  
+  }
+  .part-3 img {
+    width: 26%;
+    left: 200px;
+    top: 100px;
+  }
+  .part-3 p{
+    font-size: 28px;
+    width: 27%;
+    top:   -170px;
+   left :180px;
+  }
+  .crid p{
+    
+    top:   260px;
+    
+  }
+}

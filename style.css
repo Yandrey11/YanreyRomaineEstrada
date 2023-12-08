@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  
+  background-position: center;
+ height: 1200px;
+  background-image: linear-gradient(to right top, #145858, #3a706b, #5a897e, #7aa394, #9bbdaa, #9bbdaa, #9bbdaa, #9bbdaa, #7aa394, #5a897e, #3a706b, #145858);
+  background-repeat: no-repeat;
+} 
+
+
+.header{
+    font-family: Arial;
+    width: max-content;
+
+
+}
+.logo {
+position: absolute;
+
+padding-left: 20px;
+  font-size: 30px;
+ 
+  
+}
+span{
+  color: #f7b318;
+}
+nav{
+  padding-top: 20px;
+}
+.nav li {
+  display: inline-block;
+ 
+}
+
+
+
+.list-items a{
+  text-decoration: none;
+  cursor: pointer;
+ position:relative;
+ left: 140px;
+ font-size: 15px;
+  margin-right: 20px;
+  top: 10px;
+  font-size: 15px;
+  color:#f7b318 ;
+  
+}
+
+
+
+
+
+.content{
+  position: absolute;
+ top: 130px;
+}
+.content h2 {
+  position: relative;
+  top: 270px;
+  margin: 0px 20px;
+  font-size: 30px;
+  
+}
+.content h4{
+  position: relative;
+  top: 265px;
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+  
+}
+.content p{
+    position: relative;
+    top: 270px;
+    margin: 0px 20px  0px 20px;
+  font-size: 13px;  
+}
+
+
+
+.crid p{
+  position: relative;
+  top: 1100px;
+  font-size: 10px;
+  text-align: center;
+}
+.socmed a {
+  width: 20px;
+top: 500px;
+position: relative;
+border-radius: 50%;
+
+margin: 0px 0px 0px 20px;
+}
+.socmed img{
+  width: 6%;
+  
+  margin-right: 0px;
+  border-radius: 20px;
+}
+.me img{
+
+  position:absolute;
+  width: 50%;
+ 
+  top: 10%;
+left: 20%;
+background:transparent;
+}
+.about-me .bio{
+  position: absolute;
+  top: 700px;
+  padding: 0 20px 0 20px;
+
+  width: 180px;
+  height: 400px;
+  left: 155px;
+}
+.fyp h4{
+  position: absolute;
+padding: 0 0 0 20px;  
+bottom: 15%;
+font-size:25px;
+}
+.profile-image img{
+  width: 40%;
+  position: absolute;
+  bottom: -150px;
+  left: 15px;
+  border-radius: 20px;
+} 
+.bio{
+  font-family: arial;
+}
+.bio p{
+  text-align: justify;
+}
+.bio h4{
+  text-align: justify;
+}
+@media only screen and (min-width: 550px) {
+ 
+    .body{
+      background-size: auto;
+    }
+   
+
+  .logo {
+    font-size: 3em;
+    padding-top: 5px;
+  }
+  
+  .list-items a{
+    left: 250px;
+    font-size: 18px;
+    
+  }
+
+
+  .content{
+    top: 300px;
+    margin: 0 20px 0 20px;
+  }
+
+  .content h2 {
+    font-size: 60px;
+    margin-left: 5%;
+  }
+
+  .content h4 {
+    font-size: 45px;
+    margin-left: 5%;
+  }
+
+  .content p {
+    font-size: 25px;
+    margin-left: 5%;
+  }
+
+  .socmed a{
+   
+    width: 60%;
+    margin-left: 5%;
+    margin-right: -10px;
+    position: relative;
+    bottom: 500px; /* Adjust as needed */
+  }
+  .socmed img{
+   position: relative;
+   top: 370px;
+    left: 15px;
+  }
+
+
+  .me img {
+    left: 28%;
+    bottom: 300px; /* Adjust as needed */
+    width: 50%;
+   
+  }
+
+  .crid p {
+    top: 1100px;
+  }
+  .fyp h4 {
+    left: 10px;
+    bottom: -170px;
+  }
+  .profile-image img{
+    width: 20%;
+    bottom: -370px;
+    left: 30px;
+  }
+  .about-me .bio{
+    width:300px;
+    height: 150px;
+    top: 1000px;
+   
+    
+  }
+}
+
+
+@media only screen and (min-width:767px) { 
+ 
+  
+ 
+  .logo{
+    font-size: 4em;
+    
+    padding-left: 50px;
+  }
+  .list-items a{
+    left: 400px;
+    font-size: 23px;
+    margin-right: 50px;
+
+    
+  }
+
+  
+  
+ 
+  .content {
+   top: 300px;
+  }
+  
+  .content h2 {
+    
+    
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  .content h4{
+ 
+  font-size: 45px;
+  margin-left: 50px;
+  }
+  .content p{
+      
+      margin-left: 50px;
+  font-size: 25px;  
+  }
+  
+  .socmed a{
+
+    margin-left: 50px;
+    margin-right: -10px;
+    bottom: 200px;
+
+    
+  }
+
+  .socmed img{
+    width: 5%;
+   position: relative;
+   top: 300px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  .me img{
+  width: 35%;
+   left: 250px;
+    bottom: 450px;
+   
+}
+
+.crid p{
+top: 1090px;
+ 
+}
+.about-me .bio{
+top:   950px;
+width: 550px;
+height: 20%;
+left: 200px;
+
+}
+.profile-image img{
+  width: 15%;
+  bottom: -80px;
+  left: 55px;
+}
+.fyp h4{
+  bottom: 140px;
+  left: 40px;
+  font-size: 35px;
+}
+.bio h2 {
+  font-size: 35px;
+}
+.bio p{
+  font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1366px) {
+ 
+  .logo {
+    font-size: 5em;
+    top: -7px;
+  }
+
+  .list-items a {
+    font-size: 27px;
+    padding-top: 100px;
+    left: 800px;
+  }
+
+  .content {
+    top: 60px;
+  }
+
+  .content h2 {
+    font-size: 5em;
+    margin-left: 100px;
+  }
+
+  .content h4 {
+    height: 100px;
+    width: 700px;
+    margin-left: 100px;
+    font-size: 45px;
+  }
+
+  .content p {
+    margin-left: 100px;
+    width: 700px;
+    font-size: 25px;
+  }
+
+  .socmed {
+    margin-right: -10px;
+    position: relative;
+    bottom: 230px;
+    left: 50px;
+  }
+
+  .socmed img {
+    width: 3%;
+    margin-right: -20px;
+  }
+
+  .me img {
+    width: 30%;
+    /* Adjust left positioning */
+    left: calc(100% - 500px); 
+    top: 80px;
+    
+  }
+
+  .crid p {
+    top: 1070px;
+  }
+
+  .fyp h4 {
+    bottom: -230px;
+    left: 300px;
+    font-size: 35px;
+  }
+
+  .about-me .bio {
+    display: flex;
+    height: 40%;
+    width: 1000px;
+    left: 300px;
+    top: 880px;
+  }
+
+  .profile-image img {
+    width: 15%;
+    bottom: -550px;
+  }
+
+  .bio h2 {
+    font-size: 45px;
+    width: 300%;
+    height: 20%;
+  }
+
+  .bio p {
+    width: -100px;
+    position: absolute;
+    bottom: 30px;
+    width: 97%;
+    height: 60%;
+    font-size: 25px;
+  }
+}
